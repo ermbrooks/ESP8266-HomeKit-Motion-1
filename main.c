@@ -80,8 +80,8 @@ homekit_accessory_t *accessories[] = {
         HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_switch, .services=(homekit_service_t*[]){
                 HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]){
                         &name,
-                        HOMEKIT_CHARACTERISTIC(MANUFACTURER, "StudioPieters®"),
-                        HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "037A2BABF19D"),
+                        HOMEKIT_CHARACTERISTIC(MANUFACTURER, "EricBrooksDevices"),
+                        HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "037A2BABF19E"),
                         HOMEKIT_CHARACTERISTIC(MODEL, "Motion Sensor"),
                         HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "0.1.6"),
                         HOMEKIT_CHARACTERISTIC(IDENTIFY, identify),
